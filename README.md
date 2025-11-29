@@ -53,6 +53,7 @@ To find the most demanded skills for the top 3 most popular data roles. I filter
 View my notebook with detailed steps here:
 [2_Skill_Demand.ipynb](3_Project\2_Skill_Demand.ipynb)
 
+
 ## Visualize Data
 
 '''Python
@@ -79,7 +80,8 @@ Python is a versatile skill, highly demanded across all three roles, but most pr
 
 To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
 
-View my notebook with detailed steps here: 3_Skills_Trend.
+View my notebook with detailed steps here:
+[3_Skills_Trend.ipynb)](3_Project\3_Skills_Trend.ipynb)
 
 ### Visualize Data
 
@@ -96,7 +98,7 @@ plt.gca().yaxis.set_major_formatter(PercentFormatter(decimals=0))
 plt.show()
 '''
 ## Results
-![Trending Top Skills for Data Analysts in Poland](3_Project\skill_trend_DA.png)
+![Trending Top Skills for Data Analysts in Poland](3_Project\Images\skill_trend_DA.png)
 *Bar graph visualizing the trending top skills for data analysts in the Poland in 2023.*
 
 ### Insights:
@@ -108,7 +110,8 @@ Both Python and Tableau show relatively stable demand throughout the year with s
 
 To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
 
-View my notebook with detailed steps here: 4_Salary_Analysis.
+View my notebook with detailed steps here:
+[4_Salary_Analysis.ipynb](3_Project\4_Salary_Analysis.ipynb)
 
 ### Salary Analysis for Data Nerds
 #### Visualize Data
@@ -122,7 +125,7 @@ plt.show()
 '''
 ##### Results
 
-![Salary Distribution of Data Jobs in the Poland](3_Project\salary_boxplot.png)
+![Salary Distribution of Data Jobs in the Poland](3_Project\Images\salary_boxplot.png)
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 ### Insights:
@@ -147,7 +150,7 @@ plt.show()
 '''
 #### Results
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the Poland:
-![The Highest Paid Skills and the Most In-Demand Skills for Data Analyst in the Poland](3_Project\Highest_Paid_and_Most_In-Demand_Skills.png)
+![The Highest Paid Skills and the Most In-Demand Skills for Data Analyst in the Poland](3_Project\Images\Highest_Paid_and_Most_In-Demand_Skills.png)
 * skills and most in-demand skills for data analysts in the Poland.*
 
 ### Insights
@@ -160,7 +163,8 @@ There's a clear distinction between the skills that are highest paid and those t
 ## 4. What are the most optimal skills to learn for Data Analysts?
 To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn.
 
-View my notebook with detailed steps here: 5_Optimal_Skills.
+View my notebook with detailed steps here:
+[5_Optimal_Skills.ipynb](3_Project\5_Optimal_Skills.ipynb)
 
 ### Visualize Data
 '''python
@@ -172,7 +176,7 @@ plt.show()
 '''
 #### Results
 
-![Most Optimal Skills for Data Analyst in the Poland](3_Project\most_optimal_skills_for_data_analyst_in_the_poland.png)
+![Most Optimal Skills for Data Analyst in the Poland](3_Project\Images\most_optimal_skills_for_data_analyst_in_the_poland.png)
 * A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the Poland.*
 
 #### Insights
