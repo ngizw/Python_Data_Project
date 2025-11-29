@@ -39,7 +39,7 @@ df = dataset['train'].to_pandas()
 df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])
 df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)
 # Filter Poland Jobs
-To focus my analysis on the Poland job market, I apply filters to the dataset, narrowing down to roles based in Poland.
+To focus my analysis on the Polish job market, I apply filters to the dataset, narrowing down to roles based in Poland.
 
 df_Poland = df[df['job_country'] == 'Poland']
 
@@ -50,8 +50,8 @@ Each Jupyter notebook for this project aimed at investigating specific aspects o
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
 
-View my notebook with detailed steps here:
-[2_Skill_Demand.ipynb](3_Project\2_Skill_Demand.ipynb)
+View my notebook with detailed steps here: [2_Skill_Demand.ipynb](3_Project/2_Skill_Demand.ipynb)
+
 
 
 ## Visualize Data
