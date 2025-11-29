@@ -41,7 +41,7 @@ df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.no
 # Filter Poland Jobs
 To focus my analysis on the Poland job market, I apply filters to the dataset, narrowing down to roles based in the Poland.
 
-df_US = df[df['job_country'] == 'United States']
+df_Poland = df[df['job_country'] == 'Poland']
 
 # The Analysis
 Each Jupyter notebook for this project aimed at investigating specific aspects of the data job market. Here’s how I approached each question:
